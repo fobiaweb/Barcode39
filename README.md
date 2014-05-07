@@ -18,6 +18,12 @@ The PHP class will create a GIF barcode image or save a GIF barcode image file, 
     $bc->draw();
 
 
+This example will output this barcode: 
+
+![barcode39](doc/barcode39.gif "barcode39")
+
+
+
 You can also easily adjust the barcode bar sizes and text size:
 
     // set object 
@@ -34,3 +40,9 @@ You can also easily adjust the barcode bar sizes and text size:
     
     // save barcode GIF file 
     $bc->draw("barcode.gif");
+
+
+This example will save this barcode as "barcode.gif": 
+
+![barcode39](doc/php-barcode39.gif "barcode39")
+
