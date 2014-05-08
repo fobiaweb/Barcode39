@@ -158,8 +158,8 @@ final class Barcode39 {
         }
 
         // add start and stop symbols
-        array_unshift($this->_code, "*");
-        array_push($this->_code, "*");
+        //array_unshift($this->_code, "*");
+        //array_push($this->_code, "*");
     }
 
     /**
@@ -299,7 +299,7 @@ final class Barcode39 {
             imagegif($img, $filename);
             // display image
         } else {
-            header("Content-type: image/gif");
+            header("Content-Type: image/gif");
             imagegif($img);
         }
 
@@ -309,4 +309,4 @@ final class Barcode39 {
         return true;
     }
 }
-?>
+
