@@ -1,10 +1,35 @@
-#PHP Barcode Generator Class Code 39
+# PHP Barcode Generator Class Code 39
 
-Here is an easy to use PHP barcode generator class for code 39 barcodes.
+Here is an easy to use PHP barcode generator class for code 39 barcodes. 
+
+[PHP Barcode Generator Class Code 39](http://www.shayanderson.com/php/php-barcode-generator-class-code-39.htm)
 
 
-Requirements: PHP Web server and [GD Library](http://php.net/manual/en/book.image.php) (Graphics Library). 
+Installation
+============
 
+This package can be installed easily using [Composer](http://getcomposer.org).
+Simply add the following to the ``composer.json`` file at the root of your project:
+
+    {
+      "require": {
+        "fobiaweb/barcode39": "*"
+      }
+    }
+
+
+Then install your dependencies using ``composer.phar install``.
+
+
+Requirements: 
+=============
+
+PHP Web server and [GD Library](http://php.net/manual/en/book.image.php) (Graphics Library). 
+
+
+
+Documentation
+=============
 
 The PHP class will create a GIF barcode image or save a GIF barcode image file, here is an example:
 
