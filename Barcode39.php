@@ -267,7 +267,7 @@ final class Barcode39 {
 
         // add bars to barcode
         for($i = 0; $i < count($bars); $i++) {
-            imagefilledrectangle($img, $bars[$i][0], $bars[$i][1], $bars[$i][2], $bars[$i][3], $$bars[$i][4]);
+            imagefilledrectangle($img, $bars[$i][0], $bars[$i][1], $bars[$i][2], $bars[$i][3], ${$bars[$i][4]});
         }
 
         // check if using barcode text
